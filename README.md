@@ -40,5 +40,6 @@ Launch Your Career in Cloud Computing. Master strategies and tools to become pro
 * Linkedin:  [https://www.linkedin.com/in/noahgift/](https://www.linkedin.com/in/noahgift/)
 * Web:  [https://noahgift.com](https://noahgift.com)
 * Pragmatic AI Labs: [https://paiml.com](https://paiml.com)
+* [Subscribe to the Pragmatic AI Labs YouTube Channel (New Content Weekly)](https://www.youtube.com/channel/UCNDfiL0D1LUeKWAkRE1xO5Q)  
 
 ⚡ Fun facts: I was as a bouncer in college with former UFC Champion Chuck Liddell.  Early in my career I worked on the [movie Avatar while living in New Zealand](https://www.imdb.com/name/nm2104112/?ref_=fn_al_nm_1).  I used to play basketball with Adam Sandler at lunch when I worked at Sony Imageworks in Los Angeles, CA.
