@@ -5,7 +5,7 @@
 ##### AWS w/ C#
 ###### Publisher:  O'Reilly
 
-###### Release Date:  2022 (Reinvent 2022 Target
+###### Release Date:  2022 (Reinvent 2022 Target)
 
 Working with O'Reilly and AWS to write a book on building solutions on AWS with C#/.NET 6.
 
