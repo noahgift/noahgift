@@ -2,6 +2,15 @@
 
 🔭 I’m currently working on or just finished
 
+##### Foundations of Data Engineering (Specialization:  4 Courses)
+###### Publisher:  Coursera + Duke
+###### Release Date:  2/1/2022
+
+* Course1: Python and Pandas for Data Engineering
+* Course2: Linux and Bash for Data Engineering
+* Course3: Scripting with Python and SQL for Data Engineering
+* Course4: Web Development and Command-Line Tools in Python for Data Engineering
+
 ##### AWS w/ C#
 ###### Publisher:  O'Reilly
 
