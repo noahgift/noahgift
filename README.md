@@ -2,6 +2,15 @@
 
 🔭 I’m currently working on or just finished
 
+## 📺 Latest YouTube Videos
+
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCNDfiL0D1LUeKWAkRE1xO5Q?label=YouTube%20Subscribers&style=social)
+
+<!-- YOUTUBE-VIDEOS-LIST:START -->
+<!-- YOUTUBE-VIDEOS-LIST:END -->
+
+
+
 ##### Foundations of Data Engineering (Specialization:  4 Courses)
 ###### Publisher:  Coursera + Duke
 ###### Release Date:  2/1/2022
