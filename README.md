@@ -24,6 +24,7 @@
 
 * Course1: Python and Pandas for Data Engineering
 * Course2: Linux and Bash for Data Engineering
+    * [Github Repos for Projects in Course](https://github.com/noahgift/cloud-data-analysis-at-scale#github-repos-for-projects-in-course)   
 * Course3: Scripting with Python and SQL for Data Engineering
 * Course4: Web Development and Command-Line Tools in Python for Data Engineering
 
