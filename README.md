@@ -1,6 +1,10 @@
 ### Noah Gift 👋
 
-🔭 I’m currently working on or just finished
+What currently keeps me busy is as an Executive in Residence at the Duke MIDS (Datascience) and Duke AI Product Management program as well as a consultant and author in Cloud Computing, Big Data, DevOps and MLOps.  The following visual resume is a good idea to show the kinds of things I have worked on in my life.
+
+[!visual](https://noahgift.com/img/noah_gift_visual_resume.jpg)
+
+🔭 I’m currently working on or just finished the following things below.
 
 ## 📺 Latest YouTube Videos
 
