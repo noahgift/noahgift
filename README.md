@@ -25,12 +25,14 @@ What currently keeps me busy is working as an Executive in Residence at the Duke
 ##### Foundations of Data Engineering (Specialization:  4 Courses)
 ###### Publisher:  Coursera + Duke
 ###### Release Date:  2/1/2022
+![de-course](https://user-images.githubusercontent.com/58792/160180842-9d84b5e0-3196-4b92-b6fc-947c491c47af.png)
 
-* Course1: Python and Pandas for Data Engineering
-* Course2: Linux and Bash for Data Engineering
+* [Python, Bash and SQL Essentials for Data Engineering Specialization](https://www.coursera.org/specializations/python-bash-sql-data-engineering-duke)
+* [Course1: Python and Pandas for Data Engineering](https://www.coursera.org/learn/python-and-pandas-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
+* [Course2: Linux and Bash for Data Engineering](https://www.coursera.org/learn/linux-and-bash-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
     * [Github Repos for Projects in Course](https://github.com/noahgift/cloud-data-analysis-at-scale#github-repos-for-projects-in-course)   
-* Course3: Scripting with Python and SQL for Data Engineering
-* Course4: Web Development and Command-Line Tools in Python for Data Engineering
+* [Course3: Scripting with Python and SQL for Data Engineering](https://www.coursera.org/learn/scripting-with-python-sql-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
+* [Course4: Web Development and Command-Line Tools in Python for Data Engineering](https://www.coursera.org/learn/web-app-command-line-tools-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
 
 ##### AWS w/ C#
 ###### Publisher:  O'Reilly
