@@ -34,6 +34,15 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 * [Course3: Scripting with Python and SQL for Data Engineering](https://www.coursera.org/learn/scripting-with-python-sql-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
 * [Course4: Web Development and Command-Line Tools in Python for Data Engineering](https://www.coursera.org/learn/web-app-command-line-tools-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
 
+## AWS Certified Solutions Architect Professional exam (SAP-C01)
+### Publisher:  Linkedin Learning
+#### Release Date:  January, 2021
+
+* [AWS Certified Solutions Architect - Professional (SAP-C01) Cert Prep: 1 Design for Organizational Complexity](https://www.linkedin.com/learning/aws-certified-solutions-architect-professional-sap-c01-cert-prep-1-design-for-organizational-complexity/design-for-organizational-complexity?autoplay=true)
+* [Microsoft Azure Data Engineering (DP-203): 2 Design and Develop Data Processing](https://www.linkedin.com/learning/aws-certified-solutions-architect-professional-sap-c01-cert-prep-2-design-for-new-solutions/introduction-to-domain-2?autoplay=true)
+* [AWS Certified Solutions Architect - Professional (SAP-C01) Cert Prep: 2 Design for New Solutions](https://www.linkedin.com/learning/aws-certified-solutions-architect-professional-sap-c01-cert-prep-3-migration-planning/select-an-appropriate-server-migration-mechanism?autoplay=true)
+
+
 ##### AWS w/ C#
 ###### Publisher:  O'Reilly
 
