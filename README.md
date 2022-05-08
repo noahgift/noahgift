@@ -49,6 +49,9 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 ###### Release Date:  2022 (Reinvent 2022 Target)
 
 Working with O'Reilly and AWS to write a book on building solutions on AWS with C#/.NET 6.
+![c#book](https://user-images.githubusercontent.com/58792/167318897-3c749ea4-0ef3-4ee4-998c-3c631257623f.jpg)
+* [Developing on AWS with C#](https://www.amazon.com/Developing-AWS-Comprehensive-Solutions-Platform/dp/1492095877)
+
 
 ##### Practical MLOps
 ###### Publisher:  O'Reilly
