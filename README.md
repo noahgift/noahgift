@@ -14,10 +14,10 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 - [EP1- Assimilate Python from Zero](https://www.youtube.com/watch?v=_zWa8Tk6f3M)
 - [EP 11-52-Weeks-Live-Coding-MLOps](https://www.youtube.com/watch?v=LaCW_-BIc5I)
 - [52 Weeks AWS: Episode 29-AWS ML Certification Continued](https://www.youtube.com/watch?v=xjx7wu70iuY)
-- [52 weeks of Swift: EP21-Protocols](https://www.youtube.com/watch?v=QoabaCR_J3E)
 - [52 Weeks of Live Coding .NET: Episode 4](https://www.youtube.com/watch?v=aQMwI7Q_Yzk)
 - [EP3-52-weeks-of-exploring-interesting languages:](https://www.youtube.com/watch?v=0C1mdQ3vTyo)
 - [52-weeks-rust: ep-3](https://www.youtube.com/watch?v=zJUs8oR0-Zg)
+- [52-weeks-rust: ep-4](https://www.youtube.com/watch?v=8O7idhmwH2Q)
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 
