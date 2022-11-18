@@ -11,13 +11,13 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCNDfiL0D1LUeKWAkRE1xO5Q?label=YouTube%20Subscribers&style=social)
 
 <!-- YOUTUBE-VIDEOS-LIST:START -->
+- [Nic (crul)-CEO & Co-founder Crul, Inc. MLOPs Interviews](https://www.youtube.com/watch?v=_WMnzyYoEJM)
 - [CDK](https://www.youtube.com/watch?v=4Qd_G9BfHWc)
 - [Google Cloud](https://www.youtube.com/watch?v=0zvoPgim-w8)
 - [Azure Cloud](https://www.youtube.com/watch?v=VcA9f8Hu4TY)
 - [Assimilate GitHub](https://www.youtube.com/watch?v=bOr3e-zH2QM)
 - [MLOps Projects](https://www.youtube.com/watch?v=CVF7VXoscNE)
 - [Data Science Projects](https://www.youtube.com/watch?v=EwUwHYWcqBs)
-- [Assimilate Containers](https://www.youtube.com/watch?v=gmeTK8arSvI)
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 
