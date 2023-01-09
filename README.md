@@ -1,6 +1,6 @@
 ### Noah Gift 👋
 
-What currently keeps me busy is working as an [Executive in Residence at the Duke MIDS (Data Science)](https://www.coursera.org/instructor/noahgift) and Duke AI Product Management program and as a consultant and author in Cloud Computing, Big Data, DevOps, and MLOps. The following visual resume is a good idea to show the kinds of things I have worked on in my life.
+What currently keeps me busy is working as an [Executive in Residence at the Duke MIDS (Data Science)](https://www.coursera.org/instructor/noahgift) and Duke AI Product Management program and as a consultant and author in Cloud Computing, Big Data, DevOps, and MLOps. The following visual resume is a good idea to show the kinds of things I have worked on in my life.  I am a Rust Fanatic.
 
 ![visual](https://noahgift.com/img/noah_gift_visual_resume.jpg)
 
