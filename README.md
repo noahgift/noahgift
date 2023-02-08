@@ -17,7 +17,7 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 - [Assimilate-Haskell](https://www.youtube.com/watch?v=fP5E9JAjezs)
 - [Teaching MLOps at Scale with GitHub](https://www.youtube.com/watch?v=ORHO05l--yg)
 - [Introduction to  #actix #rust #containerized #microservice on #aws #apprunner](https://www.youtube.com/watch?v=I3cEQ_7aD1A)
-- [Assimilate-Fsharp](https://www.youtube.com/watch?v=ICoqKUA_b5o)
+- [Maxime DAVID Live Stream on Rust](https://www.youtube.com/watch?v=IZclXw4c3Vc)
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 ##### MLOps (Specialization:  4 Courses)
