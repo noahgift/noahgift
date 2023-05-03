@@ -24,6 +24,7 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 ###### Publisher:  Coursera + Duke
 ###### Release Date:  1/1/2023
 
+* [DevOps, DataOps, MLOps](https://www.coursera.org/learn/devops-dataops-mlops-duke)
 * [MLOps Platforms: Amazon SageMaker and Azure ML](https://www.coursera.org/learn/mlops-aws-azure-duke)
 * [Open Source Platforms for MLOps](https://www.coursera.org/learn/open-source-mlops-platforms-duke)
 * [Python Essentials for MLOps](https://www.coursera.org/learn/python-essentials-mlops-duke)
