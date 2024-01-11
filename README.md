@@ -13,9 +13,9 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCNDfiL0D1LUeKWAkRE1xO5Q?label=YouTube%20Subscribers&style=social)
 
 <!-- YOUTUBE-VIDEOS-LIST:START -->
+- [Data Wrangling: Key Concepts for Preparing Data in ML Pipelines](https://www.youtube.com/watch?v=UKl7zeQEB9k)
 - [Examining Business Models: Free Riders, Rent Seekers, Platforms and Products](https://www.youtube.com/watch?v=wagL9h2i-OQ)
 - [Integrating Rust and Python with a Shared Library](https://www.youtube.com/watch?v=K9dUqGyQ9pw)
-- [Data Wrangling: Key Concepts for Preparing Data in ML Pipelines](https://www.youtube.com/watch?v=UKl7zeQEB9k)
 - [Key Concepts for Preparing Data in ML Pipelines](https://www.youtube.com/watch?v=NuwfkKdpQc0)
 - [Rust AWS SDK Setup Guide - Editor, Credentials, Cargo and Code Assist](https://www.youtube.com/watch?v=jXNHlW_41PA)
 - [Data Engineering Design Principles from AWS-Part 3](https://www.youtube.com/watch?v=0FfHM_BbjwE)
