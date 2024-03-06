@@ -13,13 +13,13 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCNDfiL0D1LUeKWAkRE1xO5Q?label=YouTube%20Subscribers&style=social)
 
 <!-- YOUTUBE-VIDEOS-LIST:START -->
+- [🤖 Handle Python Exceptions in Rust Code](https://www.youtube.com/watch?v=GgaEkkW9ero)
 - [⚡ Lightning Fast Data Analysis in Rust with Polars](https://www.youtube.com/watch?v=b8so7lEuA94)
 - [🐍 Leverage Rust Ownership Model in Python via pyo3](https://www.youtube.com/watch?v=BlCqHuQEk9s)
 - [Perpetuating Harm - How AI Can Reinforce and Spread Bias](https://www.youtube.com/watch?v=CGh7cWV9lN8)
 - [🚀 Blast Off with Ruff: The Speedy Python Linter](https://www.youtube.com/watch?v=e316tBX1-FU)
 - [🤝 Integrate Rust and Python for Powerful Programs](https://www.youtube.com/watch?v=ZsstFDuXV5o)
 - [Regulatory Entrepreneurship and AI - Changing Laws Through Market Domination](https://www.youtube.com/watch?v=ZgxBcnPgTOw)
-- [🚀 Accelerate Python with High-Performance Rust Tools](https://www.youtube.com/watch?v=vghhQOZOdWA)
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 ##### MLOps (Specialization:  4 Courses)
