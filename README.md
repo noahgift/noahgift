@@ -13,13 +13,13 @@ What currently keeps me busy is working as an [Executive in Residence at the Duk
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCNDfiL0D1LUeKWAkRE1xO5Q?label=YouTube%20Subscribers&style=social)
 
 <!-- YOUTUBE-VIDEOS-LIST:START -->
-- [🚀 Skyrocket Your Productivity with These 6 Game-Changing Techniques](https://www.youtube.com/watch?v=Yy8CLFYXoYE)
+- [The Pitfalls of Rigid Agile](https://www.youtube.com/watch?v=F019FzxBntY)
 - [🦾 Supercharge Your Organization with AI - 4 Key Areas to Focus On](https://www.youtube.com/watch?v=QkD_X0st4iY)
+- [🚀 Skyrocket Your Productivity with These 6 Game-Changing Techniques](https://www.youtube.com/watch?v=Yy8CLFYXoYE)
 - [🤖 Verify Rust Code with Cargo Test](https://www.youtube.com/watch?v=GGtDyhq4UGk)
 - [🤖 Handle Python Exceptions in Rust Code](https://www.youtube.com/watch?v=GgaEkkW9ero)
 - [⚡ Lightning Fast Data Analysis in Rust with Polars](https://www.youtube.com/watch?v=b8so7lEuA94)
 - [🐍 Leverage Rust Ownership Model in Python via pyo3](https://www.youtube.com/watch?v=BlCqHuQEk9s)
-- [Perpetuating Harm - How AI Can Reinforce and Spread Bias](https://www.youtube.com/watch?v=CGh7cWV9lN8)
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 ##### MLOps (Specialization:  4 Courses)
