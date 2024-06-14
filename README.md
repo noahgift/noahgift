@@ -4,6 +4,8 @@ NOTE:  Due to my ethical, security and leadership concerns about Microsoft, Open
 
 What currently keeps me busy is working as the founder of [✨Pragmatic AI Labs which builds courses on edX](https://insight.paiml.com/d69) and as an [Executive in Residence at the Duke MIDS (Data Science)](https://www.coursera.org/instructor/noahgift) and Duke AI Product Management program and as a consultant and author in Cloud Computing, Big Data, DevOps, and MLOps. The following visual resume is a good idea to show the kinds of things I have worked on in my life.  I am a Rust Fanatic.
 
+All code in GitHub in all repos is licensed [ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL](https://creativecommons.org/licenses/by-nc-sa/4.0/) and this license supercedes any stated license in individual repos.
+
 ![visual](https://noahgift.com/img/noah_gift_visual_resume.jpg)
 
 🔭 I’m currently working on or just finished the following things below.
