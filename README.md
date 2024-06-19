@@ -3,7 +3,7 @@
 * [✨Pragmatic AI Labs builds courses on edX](https://insight.paiml.com/d69)
 * [ 💬 Join our Discord community](https://discord.gg/ZrjWxKay)
 
-NOTE:  All code in GitHub in all repos and organizations is licensed [ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL](https://creativecommons.org/licenses/by-nc-sa/4.0/) and this license supercedes any stated license in individual repos.  Training AI models on source code is prohibited.  Due to my ethical, security and leadership concerns about Microsoft, OpenAI, and Copilot I am migrating OFF GitHub to GitLab.  You can find me here:  [https://gitlab.com/noahgift](https://gitlab.com/noahgift)
+**NOTE:**  All code in GitHub in all repos and organizations is licensed [ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL](https://creativecommons.org/licenses/by-nc-sa/4.0/) and this license supercedes any stated license in individual repos.  **Training AI models on source code is prohibited**.  Due to my ethical, security and leadership concerns about Microsoft, OpenAI, and Copilot I am migrating OFF GitHub to GitLab.  You can find me here:  [https://gitlab.com/noahgift](https://gitlab.com/noahgift)
 
 What currently keeps me busy is working as the founder of [✨Pragmatic AI Labs which builds courses on edX](https://insight.paiml.com/d69) and as an [Executive in Residence at the Duke MIDS (Data Science)](https://www.coursera.org/instructor/noahgift) and Duke AI Product Management program and as a consultant and author in Cloud Computing, Big Data, DevOps, and MLOps. The following visual resume is a good idea to show the kinds of things I have worked on in my life.  I am a Rust Fanatic.
 
