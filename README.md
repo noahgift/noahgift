@@ -1,7 +1,17 @@
 ### Noah Gift 👋
 
-* [✨Pragmatic AI Labs builds courses on edX](https://insight.paiml.com/d69)
-* [ 💬 Join our Discord community](https://discord.gg/ZrjWxKay)
+* [✨Pragmatic AI Labs](ds500.paiml.com) [builds courses on edX](https://insight.paiml.com/d69)
+* [ 💬 Join our Discord community]([https://discord.gg/ZrjWxKay](https://insight.paiml.com/iw2))
+
+### Two Elite Master’s Degrees Worth of edX Programs 👇
+
+* 📚[LLMOps](https://insight.paiml.com/j8t)
+* 📚[Rust Programming](https://insight.paiml.com/hf6)
+* 📚[MLOps](https://insight.paiml.com/ear)
+* 📚[Generative AI Fundamentals](https://insight.paiml.com/i7f)
+* 📚[Cloud Computing](https://insight.paiml.com/ccn)
+* 📚[Data Engineering](https://insight.paiml.com/36g) 
+
 
 **NOTE:**  All code in GitHub in all repos and organizations is licensed [ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL](https://creativecommons.org/licenses/by-nc-sa/4.0/) and this license supercedes any stated license in individual repos.  **Training AI models on source code is prohibited**.  Due to my ethical, security and leadership concerns about Microsoft, OpenAI, and Copilot I am migrating OFF GitHub to GitLab.  You can find me here:  [https://gitlab.com/noahgift](https://gitlab.com/noahgift)
 
