@@ -1,17 +1,24 @@
 ## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
 
-* 🚀 [Master Production ML Systems](https://paiml.com) - MLOps, AWS & Cloud Computing
-* 📺 [Watch Our Courses on edX](https://insight.paiml.com/d69)
-* 💬 [Join Our Discord Community](https://insight.paiml.com/iw2)
+### 🔥 Hot Course Offers:
+* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
+* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
+* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
+* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
+* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
 
-Learn real-world ML engineering from industry experts. Used by Fortune 500 companies.
+### 🚀 Level Up Your Career:
+* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
+* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
+* 🏢 Trusted by Fortune 500 Teams
+
+
+Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
 
 
 **NOTE:**  All code in GitHub in all repos and organizations is licensed [ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL](https://creativecommons.org/licenses/by-nc-sa/4.0/) and this license supercedes any stated license in individual repos.  **Training AI models on source code is prohibited**.  Due to my ethical, security and leadership concerns about Microsoft, OpenAI, and Copilot I am migrating OFF GitHub to Codeberg for Public, and will host most repos privately (shared in courses as zip files).  You can find new Public Repos on Codeberg:  [https://codeberg.org/noahgift](https://codeberg.org/noahgift)
 
 What currently keeps me busy is working as the founder of [✨Pragmatic AI Labs which builds courses on edX](https://insight.paiml.com/d69) and as an [Executive in Residence at the Duke MIDS (Data Science)](https://www.coursera.org/instructor/noahgift) and Duke AI Product Management program and as a consultant and author in Cloud Computing, Big Data, DevOps, and MLOps. The following visual resume is a good idea to show the kinds of things I have worked on in my life.  I am a Rust Fanatic.
-
-
 
 ![visual](https://noahgift.com/img/noah_gift_visual_resume.jpg)
 
