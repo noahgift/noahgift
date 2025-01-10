@@ -1,16 +1,10 @@
-### Noah Gift 👋
-* 🚀 Support our mission to transform AI education! [Join the Pragmatic AI Labs community for exclusive hands-on learning](https://ds500.paiml.com/subscribe.html)
-* [✨Pragmatic AI Labs](ds500.paiml.com) [builds courses on edX](https://insight.paiml.com/d69)
-* [ 💬 Join our Discord community](https://insight.paiml.com/iw2)
+## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
 
-### Two Elite Master’s Degrees Worth of edX Programs 👇
+* 🚀 [Master Production ML Systems](https://paiml.com) - MLOps, AWS & Cloud Computing
+* 📺 [Watch Our Courses on edX](https://insight.paiml.com/d69)
+* 💬 [Join Our Discord Community](https://insight.paiml.com/iw2)
 
-* 📚[LLMOps](https://insight.paiml.com/j8t)
-* 📚[Rust Programming](https://insight.paiml.com/hf6)
-* 📚[MLOps](https://insight.paiml.com/ear)
-* 📚[Generative AI Fundamentals](https://insight.paiml.com/i7f)
-* 📚[Cloud Computing](https://insight.paiml.com/ccn)
-* 📚[Data Engineering](https://insight.paiml.com/36g) 
+Learn real-world ML engineering from industry experts. Used by Fortune 500 companies.
 
 
 **NOTE:**  All code in GitHub in all repos and organizations is licensed [ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL](https://creativecommons.org/licenses/by-nc-sa/4.0/) and this license supercedes any stated license in individual repos.  **Training AI models on source code is prohibited**.  Due to my ethical, security and leadership concerns about Microsoft, OpenAI, and Copilot I am migrating OFF GitHub to Codeberg for Public, and will host most repos privately (shared in courses as zip files).  You can find new Public Repos on Codeberg:  [https://codeberg.org/noahgift](https://codeberg.org/noahgift)
