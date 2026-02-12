@@ -1,4 +1,4 @@
-## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
+## 🎓 Pragmatic AI Labs | Join 2M+ ML Engineers
 
 ### 🔥 Hot Course Offers:
 * 🤖 [Coursera Hugging Face AI Development Specialization](https://www.coursera.org/specializations/hugging-face-ai-development) - Build Production AI systems with Hugging Face in Pure Rust
