@@ -135,11 +135,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 006: recommend — from/to role + prereq DAG'
-  status: planned
+  status: inprogress
   priority: high
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T21:16:03.212715638+00:00
   spec: null
   acceptance_criteria:
   - 'P1. Hand-curate config/recommend.toml prereq graph. Role vectors in public/recommend/roles.json. Greedy gap-cover with topo sort. Acceptance: 4-step path under budget in ≤30ms warm. Graph must be DAG (CI-checked). Spec: 006-recommend-path.md.'
