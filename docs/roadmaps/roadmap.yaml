@@ -25,11 +25,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 001: prove <claim-id> — in-browser falsifier evaluator'
-  status: inprogress
+  status: completed
   priority: critical
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T18:02:56.758239438+00:00
+  updated: 2026-04-17T18:07:51.457836093+00:00
   spec: null
   acceptance_criteria:
   - 'P0. Implement rmedia-wos-prove crate with jq_count/jq_sum/sha256 opcodes. Fetches contracts.json + fixtures.json, runs falsifier for a given claim, reports pass/fail. Acceptance: prove --all returns 15/15 verified in ≤150ms. Spec: docs/specifications/001-prove-claim.md.'
