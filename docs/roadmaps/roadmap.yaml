@@ -1,0 +1,243 @@
+roadmap_version: '1.0'
+github_enabled: true
+github_repo: null
+roadmap:
+- id: PMAT-001
+  github_issue: null
+  item_type: task
+  title: 'Spec 000: premise + principles + sub-spec template'
+  status: completed
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:53:49Z
+  updated: 2026-04-17T17:55:06.337422617+00:00
+  spec: null
+  acceptance_criteria:
+  - 'Foundational doc. Defines template, approval gate, and 8 design principles binding every sub-spec. Already drafted at docs/specifications/000-premise-and-principles.md. Work: move Status from Draft to Approved after review.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - foundation
+  notes: null
+- id: PMAT-002
+  github_issue: null
+  item_type: task
+  title: 'Spec 001: prove <claim-id> — in-browser falsifier evaluator'
+  status: planned
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P0. Implement rmedia-wos-prove crate with jq_count/jq_sum/sha256 opcodes. Fetches contracts.json + fixtures.json, runs falsifier for a given claim, reports pass/fail. Acceptance: prove --all returns 15/15 verified in ≤150ms. Spec: docs/specifications/001-prove-claim.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p0
+  - rust
+  - wasm
+  notes: null
+- id: PMAT-003
+  github_issue: null
+  item_type: task
+  title: 'Spec 002: diff fixtures — upstream hash drift detector'
+  status: planned
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P0. SHA-256 binding between site fixtures.json and upstream course-studio fixtures.lua. Emits fixtures.noahgift.com/latest.hash from CI. Acceptance: diff fixtures reports MATCH or DRIFT within 300ms. Spec: 002-diff-fixtures.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p0
+  - rust
+  - wasm
+  - ci
+  notes: null
+- id: PMAT-004
+  github_issue: null
+  item_type: task
+  title: 'Spec 003: grep course — semantic search (tf-idf first, embeddings next)'
+  status: planned
+  priority: high
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P1 with P0 tf-idf fallback. Ship tf-idf index (v0.1), then aprender embeddings (v0.2). Payload budgets: tf-idf ≤ 2MB, embeddings ≤ 25MB. Acceptance: top-1 cosine on gold set ≥0.7. Spec: 003-semantic-grep.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p1
+  - rust
+  - wasm
+  - aprender
+  notes: null
+- id: PMAT-005
+  github_issue: null
+  item_type: task
+  title: 'Spec 004: score <paste> — rmedia-scoring compiled to WASM'
+  status: planned
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P0. Port rmedia-scoring crate to wasm32-unknown-unknown. Accept markdown paste, grade A-F, show per-dimension scores + fix-loop. Parity contract: ±1.0 point vs CLI on gold corpus. Payload ≤ 400KB. Spec: 004-score-paste.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p0
+  - rust
+  - wasm
+  - scoring
+  notes: null
+- id: PMAT-006
+  github_issue: null
+  item_type: task
+  title: 'Spec 005: transcribe <clip> — whisper.apr in-browser'
+  status: planned
+  priority: medium
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P2. aprender whisper-tiny WASM + SIMD. Accept ≤30s audio clip, emit SRT + word timing. Determinism contract (same audio → bit-identical SRT, temperature=0). Payload ≤ 42MB. Gated on aprender+whisper WASM readiness. Spec: 005-transcribe-clip.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p2
+  - rust
+  - wasm
+  - aprender
+  - whisper
+  notes: null
+- id: PMAT-007
+  github_issue: null
+  item_type: task
+  title: 'Spec 006: recommend — from/to role + prereq DAG'
+  status: planned
+  priority: high
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P1. Hand-curate config/recommend.toml prereq graph. Role vectors in public/recommend/roles.json. Greedy gap-cover with topo sort. Acceptance: 4-step path under budget in ≤30ms warm. Graph must be DAG (CI-checked). Spec: 006-recommend-path.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p1
+  - rust
+  - wasm
+  notes: null
+- id: PMAT-008
+  github_issue: null
+  item_type: task
+  title: 'Spec 007: replay — cryptographically-bound SRT→MP4 samples'
+  status: planned
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P0. CI job rmedia replay-samples pre-renders 5-10 lesson samples with pinned rmedia version. Emits {lesson}.srt + {lesson}.mp4 + {lesson}.replay.json with SHA-256 hashes. Browser reads 3 files, plays mp4 inline, verifies both hashes. Payload per lesson ≤ 6MB. Spec: 007-replay-verify.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p0
+  - rust
+  - wasm
+  - ci
+  notes: null
+- id: PMAT-009
+  github_issue: null
+  item_type: task
+  title: 'Spec 008: audit site — rolling self-grade on page load'
+  status: planned
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P0. Promise.all over prove --all + URL verify + replay hashes + score self-outline + diff fixtures. Emits composite A-F. Auto-injects red banner on failure. Auto-runs --quick on page load (≤100ms). Full audit ≤3s. Spec: 008-audit-site.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p0
+  - rust
+  - wasm
+  - dogfood
+  notes: null
+- id: PMAT-010
+  github_issue: null
+  item_type: task
+  title: 'Spec 009: ask — extractive RAG over SRT corpus'
+  status: planned
+  priority: medium
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P2. Chunk all 79 courses'' SRTs (~50k chunks), embed with aprender, serve per-spec indices (≤12MB each) + optional global. Refuse-below-threshold contract. Deep-linked Coursera URLs with timestamps. Spec: 009-ask-transcripts.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p2
+  - rust
+  - wasm
+  - aprender
+  - rag
+  notes: null
+- id: PMAT-011
+  github_issue: null
+  item_type: task
+  title: 'Spec 010: pipe — WOS command composition'
+  status: planned
+  priority: critical
+  assigned_to: null
+  created: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T17:54:22Z
+  spec: null
+  acceptance_criteria:
+  - 'P0. WosCommand trait + pipeline executor (parse | into stages, sequential stdin/stdout, 4MB buffer cap). Ship jq WASM (~450KB). Publish 5+ canonical pipelines in cookbook.json. Spec: 010-pipe-composition.md.'
+  phases: []
+  subtasks: []
+  estimated_effort: null
+  labels:
+  - spec
+  - p0
+  - rust
+  - wasm
+  - wos
+  notes: null
