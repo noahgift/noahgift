@@ -223,11 +223,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 010: pipe — WOS command composition'
-  status: planned
+  status: inprogress
   priority: critical
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T20:40:11.276026346+00:00
   spec: null
   acceptance_criteria:
   - 'P0. WosCommand trait + pipeline executor (parse | into stages, sequential stdin/stdout, 4MB buffer cap). Ship jq WASM (~450KB). Publish 5+ canonical pipelines in cookbook.json. Spec: 010-pipe-composition.md.'
