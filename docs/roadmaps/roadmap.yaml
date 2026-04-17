@@ -112,11 +112,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 005: transcribe <clip> — whisper.apr in-browser'
-  status: inprogress
+  status: completed
   priority: medium
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T21:31:56.453107293+00:00
+  updated: 2026-04-17T21:32:07.981008913+00:00
   spec: null
   acceptance_criteria:
   - 'P2. aprender whisper-tiny WASM + SIMD. Accept ≤30s audio clip, emit SRT + word timing. Determinism contract (same audio → bit-identical SRT, temperature=0). Payload ≤ 42MB. Gated on aprender+whisper WASM readiness. Spec: 005-transcribe-clip.md.'
