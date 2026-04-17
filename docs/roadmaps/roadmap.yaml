@@ -178,11 +178,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 008: audit site — rolling self-grade on page load'
-  status: inprogress
+  status: completed
   priority: critical
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T21:12:22.847205878+00:00
+  updated: 2026-04-17T21:12:49.097751812+00:00
   spec: null
   acceptance_criteria:
   - 'P0. Promise.all over prove --all + URL verify + replay hashes + score self-outline + diff fixtures. Emits composite A-F. Auto-injects red banner on failure. Auto-runs --quick on page load (≤100ms). Full audit ≤3s. Spec: 008-audit-site.md.'
