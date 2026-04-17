@@ -156,11 +156,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 007: replay — cryptographically-bound SRT→MP4 samples'
-  status: inprogress
+  status: completed
   priority: critical
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T20:44:16.152773459+00:00
+  updated: 2026-04-17T20:51:50.691349410+00:00
   spec: null
   acceptance_criteria:
   - 'P0. CI job rmedia replay-samples pre-renders 5-10 lesson samples with pinned rmedia version. Emits {lesson}.srt + {lesson}.mp4 + {lesson}.replay.json with SHA-256 hashes. Browser reads 3 files, plays mp4 inline, verifies both hashes. Payload per lesson ≤ 6MB. Spec: 007-replay-verify.md.'
