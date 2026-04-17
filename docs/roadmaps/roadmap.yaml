@@ -46,11 +46,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 002: diff fixtures — upstream hash drift detector'
-  status: inprogress
+  status: completed
   priority: critical
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T17:55:28.080902480+00:00
+  updated: 2026-04-17T18:02:46.341014477+00:00
   spec: null
   acceptance_criteria:
   - 'P0. SHA-256 binding between site fixtures.json and upstream course-studio fixtures.lua. Emits fixtures.noahgift.com/latest.hash from CI. Acceptance: diff fixtures reports MATCH or DRIFT within 300ms. Spec: 002-diff-fixtures.md.'
