@@ -200,11 +200,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 009: ask — extractive RAG over SRT corpus'
-  status: planned
+  status: inprogress
   priority: medium
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T17:54:22Z
+  updated: 2026-04-17T21:28:40.051060253+00:00
   spec: null
   acceptance_criteria:
   - 'P2. Chunk all 79 courses'' SRTs (~50k chunks), embed with aprender, serve per-spec indices (≤12MB each) + optional global. Refuse-below-threshold contract. Deep-linked Coursera URLs with timestamps. Spec: 009-ask-transcripts.md.'
