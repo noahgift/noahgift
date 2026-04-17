@@ -94,7 +94,7 @@ roadmap:
   priority: critical
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T20:55:00Z
+  updated: 2026-04-17T21:01:02.130693023+00:00
   spec: null
   acceptance_criteria:
   - 'P0. Port rmedia-scoring crate to wasm32-unknown-unknown. Accept markdown paste, grade A-F, show per-dimension scores + fix-loop. Parity contract: ±1.0 point vs CLI on gold corpus. Payload ≤ 400KB. Spec: 004-score-paste.md.'
