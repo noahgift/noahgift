@@ -68,11 +68,11 @@ roadmap:
   github_issue: null
   item_type: task
   title: 'Spec 003: grep course — semantic search (tf-idf first, embeddings next)'
-  status: inprogress
+  status: completed
   priority: high
   assigned_to: null
   created: 2026-04-17T17:54:22Z
-  updated: 2026-04-17T21:19:31.465598737+00:00
+  updated: 2026-04-17T21:19:38.369029467+00:00
   spec: null
   acceptance_criteria:
   - 'P1 with P0 tf-idf fallback. Ship tf-idf index (v0.1), then aprender embeddings (v0.2). Payload budgets: tf-idf ≤ 2MB, embeddings ≤ 25MB. Acceptance: top-1 cosine on gold set ≥0.7. Spec: 003-semantic-grep.md.'
