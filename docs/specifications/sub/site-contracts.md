@@ -271,6 +271,85 @@ exists to catch regressions if JS/WASM is progressively added.
 
 ---
 
+## SITE_009 — Bio distinguishes current from former faculty (hard gate)
+
+**Claim:** The Bio pane separates **current** faculty affiliations (Duke,
+UC Davis — verified in 2026-04 via Coursera partner page + UC Davis GSM
+faculty directory) from **former** lecturer roles (UC Berkeley iSchool —
+"Former Lecturer" per iSchool people page, last Summer 2019; Northwestern
+SPS — not listed on current program faculty pages).
+
+**Input:** `rmedia-site/public/index.html`
+
+**Falsifier:**
+```bash
+if grep -qE 'Faculty at [^.]*UC Berkeley' public/index.html; then
+  exit 9
+fi
+if grep -qE 'Faculty at [^.]*Northwestern' public/index.html; then
+  exit 9
+fi
+# Correct shape: "Faculty at Duke and UC Davis. Former lecturer at UC Berkeley iSchool and Northwestern SPS."
+```
+
+**Rationale:** Claiming current faculty appointments that aren't current is a
+factual defect. The upstream pages (Berkeley iSchool, Northwestern SPS) are
+the ground truth; when their content changes, this contract must be
+re-verified. WebFetch evidence is cached in the commit that landed the fix.
+
+**Edge cases:**
+- If UC Berkeley lists Noah as current lecturer again, update both
+  `gen_panes.lua:139-144` and this contract's falsifier.
+- If Northwestern SPS lists Noah on a faculty page, cite that page and
+  update the bio.
+
+**Remediation:** `gen_panes.lua:139-144` — keep the "Faculty at ... Former
+lecturer at ..." split. Never regress to "Faculty at ..., UC Berkeley, ...,
+Northwestern".
+
+---
+
+## SITE_010 — Meta description sourced from site.toml, not template (hard gate)
+
+**Claim:** The `<meta name="description">` content reflects
+`rmedia-site/site.toml:description` (or `scene.prs metadata.description`),
+not a literal hardcoded in `rmedia/crates/rmedia-cli/src/site/terminal_template.html`.
+
+**Input:** `rmedia-site/public/index.html`
+
+**Falsifier:**
+```bash
+if grep -q '90+ Coursera' public/index.html; then
+  exit 10
+fi
+# Correct: "79 Coursera courses across 10 specializations"
+# (or whatever count matches the current fixtures.lua catalog)
+```
+
+**Rationale:** The 2026-04-18 audit found the meta description hardcoded as
+"Faculty at Duke, UC Berkeley, UC Davis, and Northwestern. 90+ Coursera
+courses." — contradicting `site.toml` which correctly declared 79 courses
+across 10 specializations. Shipping a hardcoded inaccurate meta description
+damages SEO and trust.
+
+**Fix (landed 2026-04-18):**
+1. `terminal_template.html:9`: `<meta name="description" content="{{ description }}">`
+2. `site/build.rs:build_terminal_context`: insert `description` from
+   `scene.metadata.description` with fallback to `config.description`.
+3. `site.toml` + `scene.prs`: set canonical description.
+
+**Edge cases:**
+- When the course count changes (new Coursera course), update
+  `site.toml:description` + `scene.prs metadata.description`. This
+  contract asserts the string is plumbed through, not the specific count.
+- Minification strips whitespace around `content=` but preserves the
+  substring; grep is robust to this.
+
+**Remediation:** Remove any literal description from the Tera template;
+always pipe through `{{ description }}`.
+
+---
+
 ## Summary table
 
 | ID        | Gate  | Command (abbreviated)                                                    |
@@ -278,8 +357,10 @@ exists to catch regressions if JS/WASM is progressively added.
 | SITE_001  | Hard  | `rmedia site verify-urls`                                                |
 | SITE_002  | Hard  | `grep -c 'scholar\.google\.com' public/index.html` == 0                  |
 | SITE_003  | Hard  | `grep -c 'scholars\.duke\.edu' public/index.html` == 0                   |
-| SITE_004  | Hard  | `grep -c 'coursera\.org/partners/duke"' public/index.html` ≥ 1           |
+| SITE_004  | Hard  | `grep -cE 'coursera\.org/partners/duke[">]' public/index.html` ≥ 1           |
 | SITE_005  | Soft  | `grep -c 'coursera\.org/instructor/noahgift' public/index.html` ≥ 1      |
 | SITE_006  | Hard  | Two builds produce identical sha256                                      |
 | SITE_007  | Soft  | `git diff --exit-code content/` after regen                              |
-| SITE_008  | Hard  | `apr probar comply public/ --checks C002..C010 (no C001, no C006)`       |
+| SITE_008  | Hard  | `apr probar comply public/ --skip-checks C001,C006`                      |
+| SITE_009  | Hard  | `grep -qE 'Faculty at [^.]*UC Berkeley\|Northwestern' public/index.html` (false) |
+| SITE_010  | Hard  | `grep -q '90+ Coursera' public/index.html` (false)                       |

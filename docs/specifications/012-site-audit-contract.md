@@ -94,25 +94,27 @@ fix at the generator source (`scripts/gen_panes.lua`), not at the built
 
 ## 4. Contract surface
 
-Eight contracts, each a falsifiable claim over `rmedia-site/public/`:
+Ten contracts, each a falsifiable claim over `rmedia-site/public/`:
 
 | ID            | Claim                                                                             | Falsifier                                                        |
 |---------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------|
 | `SITE_001`    | Every `<a href>` in panes resolves via `verify_urls` with status 200              | `rmedia site verify-urls` exit 0                                 |
 | `SITE_002`    | No `<a href>` in panes points to `scholar.google.com` (CAPTCHA-blocked)           | `grep -c 'scholar\.google\.com' public/index.html` equals 0      |
 | `SITE_003`    | No `<a href>` in panes points to `scholars.duke.edu` (retired profile host)       | `grep -c 'scholars\.duke\.edu' public/index.html` equals 0       |
-| `SITE_004`    | Duke link uses canonical Coursera partner URL `/partners/duke`                     | `grep -c 'coursera\.org/partners/duke"' public/index.html` ≥ 1   |
+| `SITE_004`    | Duke link uses canonical Coursera partner URL `/partners/duke`                     | `grep -cE 'coursera\.org/partners/duke[">]' public/index.html` ≥ 1 (minify-safe)   |
 | `SITE_005`    | Coursera instructor profile link exists                                            | `grep -c 'coursera\.org/instructor/noahgift' public/index.html` ≥ 1 |
 | `SITE_006`    | Deterministic build: same inputs produce bit-identical `public/index.html`        | Two sequential `rmedia site build` produce identical sha256      |
 | `SITE_007`    | Pane HTML is always regenerated from `scripts/gen_panes.lua`, never hand-edited   | `rmedia site build --regen-panes` leaves working tree clean      |
-| `SITE_008`    | `apr probar comply` passes C002–C005, C007–C010 (8/10; C001 + C006 are N/A)       | `apr probar comply public/ --checks C002,C003,C004,C005,C007,C008,C009,C010` exit 0 |
+| `SITE_008`    | `apr probar comply` passes all checks except C001 + C006 (N/A on static HTML)     | `apr probar comply public/ --skip-checks C001,C006` exit 0       |
+| `SITE_009`    | Bio pane distinguishes **current** from **former** faculty affiliations           | `grep -c 'Faculty at.*UC Berkeley' public/index.html` equals 0 (pre-fix shape) |
+| `SITE_010`    | `<meta name="description">` comes from site.toml / scene.prs, not template literal | `grep -c '90+ Coursera' public/index.html` equals 0 (old hardcoded shape) |
 
 Contract detail (inputs, outputs, edge cases) lives in
 [sub/site-contracts.md](./sub/site-contracts.md).
 
 ### Contract classification
 
-- **Hard gate (block deploy):** SITE_001, SITE_002, SITE_003, SITE_004, SITE_006, SITE_008
+- **Hard gate (block deploy):** SITE_001, SITE_002, SITE_003, SITE_004, SITE_006, SITE_008, SITE_009, SITE_010
 - **Soft warn (log but allow):** SITE_005, SITE_007
 
 SITE_005 is soft because the instructor profile URL pattern might change;
@@ -165,14 +167,17 @@ of them fire on static HTML inputs.
 
 ```bash
 apr probar comply rmedia-site/public/ \
-  --checks C002,C003,C004,C005,C007,C008,C009,C010 \
+  --skip-checks C001,C006 \
   --fail-fast \
   --format text
 ```
 
-Exit 0 iff all eight named checks pass. The `--checks` filter excludes C001
-and C006 explicitly (documenting the N/A status in-line) rather than
-depending on the tool's internal "skip if not WASM" logic.
+Exit 0 iff all remaining eight checks pass. `--skip-checks` is a denylist
+(aprender GH-876, 2026-04-18) — it runs all checks except the two N/A ones,
+so when a new check (C011+) ships, SITE_008 picks it up automatically
+(tightening-by-default). Compare to `--checks` which is an allowlist: it
+requires this spec to be revised every time probador adds a new check, so
+would silently loosen coverage over time.
 
 ### Future: WASM shell
 
@@ -207,7 +212,7 @@ if grep -q 'scholars\.duke\.edu' public/index.html; then
   echo "FAIL SITE_003: retired scholars.duke.edu link present" >&2
   exit 3
 fi
-if ! grep -q 'coursera\.org/partners/duke"' public/index.html; then
+if ! grep -qE 'coursera\.org/partners/duke[">]' public/index.html; then
   echo "FAIL SITE_004: canonical Duke Coursera link missing" >&2
   exit 4
 fi
@@ -225,10 +230,29 @@ fi
 echo "PASS SITE_006"
 
 # --- Test 5: SITE_008 — probar comply backstop ---
-apr probar comply public/ \
-  --checks C002,C003,C004,C005,C007,C008,C009,C010 \
-  --fail-fast
+apr probar comply public/ --skip-checks C001,C006 --fail-fast
 echo "PASS SITE_008"
+
+# --- Test 6: SITE_009 — no stale faculty claim ---
+# The pre-fix bio said "Faculty at Duke, UC Berkeley, UC Davis, and Northwestern"
+# but UC Berkeley is "Former Lecturer" since Summer 2019, and Northwestern SPS
+# doesn't list Noah on the linked program page. Require the bio to split
+# "Faculty at X and Y" from "Former lecturer at Z and W".
+if grep -qE 'Faculty at [^.]*UC Berkeley' public/index.html; then
+  echo "FAIL SITE_009: bio claims current UC Berkeley faculty (Noah is Former Lecturer)" >&2
+  exit 9
+fi
+echo "PASS SITE_009"
+
+# --- Test 7: SITE_010 — meta description not hardcoded in template ---
+# Pre-fix, rmedia's terminal_template.html had a literal
+# "Faculty at Duke, UC Berkeley, UC Davis, and Northwestern. 90+ Coursera courses."
+# that contradicted site.toml's "79 courses across 10 specializations".
+if grep -q '90+ Coursera' public/index.html; then
+  echo "FAIL SITE_010: meta description is template literal (should come from site.toml)" >&2
+  exit 10
+fi
+echo "PASS SITE_010"
 
 echo "ALL HARD-GATE CONTRACTS PASS"
 ```
