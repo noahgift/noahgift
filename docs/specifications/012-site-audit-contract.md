@@ -1,6 +1,6 @@
 # Spec 012 — Site Audit Contract (`site-contract`)
 
-**Status:** Draft
+**Status:** Implemented (partial) — SITE_001, SITE_002, SITE_003, SITE_004, SITE_005, SITE_009, SITE_010 wired into CodeBuild; SITE_006, SITE_007 wired into `make precommit`; SITE_008 deferred pending apr-cli on crates.io (tracked in PMAT-009)
 **Priority:** P0
 **Depends on:** 000, 001, 002, 008, 011
 **Owner:** Noah Gift
@@ -278,11 +278,22 @@ Exit codes map to contract IDs (2→SITE_002, 3→SITE_003, 4→SITE_004,
 - **Scope of "CAPTCHA-blocked" block-list:** should we enumerate known
   CAPTCHA-protected hosts (scholar.google.com, linkedin.com/sales/...) or
   keep contracts URL-specific?
-- **SITE_006 determinism guarantees:** `rmedia site build` embeds a
-  timestamp in a comment. Either remove the timestamp or hash only the
-  deterministic region.
-- **CodeBuild integration:** where does this recipe run — pre-deploy step in
-  `buildspec.yml`, or a separate CodeBuild project that gates the sync?
+
+### Resolved
+
+- **~~SITE_006 determinism guarantees~~** — Resolved 2026-04-18. The
+  non-determinism source was `os.date("!%Y-%m-%dT%H:%M:%SZ")` in
+  `rmedia-site/scripts/gen_panes.lua`, which wrote a wall-clock
+  `generated_at` field into `fixtures.json` + `contracts.json`. Fix: dropped
+  the `generated_at` field entirely and bumped schema to 0.2. Output is now
+  fully content-addressed via `fixtures_hash`. Two sequential runs produce
+  bit-identical output.
+- **~~CodeBuild integration~~** — Resolved 2026-04-18. The recipe runs in
+  `buildspec.yml`'s `build` phase, before the `s3 sync` in `post_build`.
+  `rmedia-site/scripts/contracts.sh` + `verify_urls.sh` gate the deploy.
+  SITE_006 + SITE_007 run locally via `make precommit` because they need
+  Lua + the upstream `course-studio` tree and can't run in the CodeBuild
+  environment, which only deploys from pre-built `rmedia-site/public/`.
 
 ## 10. References
 
