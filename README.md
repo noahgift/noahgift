@@ -2,7 +2,7 @@
 ---
 ## Pragmatic AI Labs Specializations
 
-📚 **Rust Data Engineering Specialization**
+📚 **[Rust Data Engineering Specialization](https://www.coursera.org/specializations/rust-data-engineering)** — 📦 [GitHub: paiml/rust-de-specialization](https://github.com/paiml/rust-de-specialization)
 
 * 📚 [Rust From Zero](https://www.coursera.org/learn/rust)
 * 📚 [Terminal From Zero](https://www.coursera.org/learn/terminal)
@@ -14,7 +14,7 @@
 * 📚 [Data Ethics](https://www.coursera.org/learn/ethical)
 * 📚 [Agile With AI](https://www.coursera.org/learn/agile-with-ai)
 
-📚 **[Next-Gen AI Development with Hugging Face Specialization](https://www.coursera.org/specializations/hugging-face-ai-development)**
+📚 **[Next-Gen AI Development with Hugging Face Specialization](https://www.coursera.org/specializations/hugging-face-ai-development)** — 📦 [GitHub: paiml/applied-ai-engineering](https://github.com/paiml/applied-ai-engineering)
 
 * 📚 [Hugging Face Hub and Ecosystem Fundamentals](https://www.coursera.org/learn/hugging-face-hub-fundamentals)
 * 📚 [Fine-Tuning Transformers with Hugging Face](https://www.coursera.org/learn/fine-tuning-transformers-with-hugging-face)
@@ -30,7 +30,7 @@
 * 📚 [Generative AI and LLMs on Databricks](https://www.coursera.org/learn/generative-ai-and-llms-on-databricks)
 * 📚 [Production Governance and MLOps on Databricks](https://www.coursera.org/learn/production-governance-and-mlops-on-databricks)
 
-📚 **[AI Tooling Specialization](https://www.coursera.org/specializations/ai-tooling)**
+📚 **[AI Tooling Specialization](https://www.coursera.org/specializations/ai-tooling)** — 📦 [GitHub: paiml/ai-tooling](https://github.com/paiml/ai-tooling)
 
 * 📚 [AWS Generative AI and Foundation Models](https://www.coursera.org/learn/aws-generative-ai-and-foundation-models)
 * 📚 [AWS Intelligent Applications with Amazon Bedrock](https://www.coursera.org/learn/aws-intelligent-applications-with-amazon-bedrock)
@@ -53,7 +53,7 @@
 * 📚 [Build a Production SaaS Application with AI](https://www.coursera.org/learn/build-a-production-saas-application-with-ai)
 * 📚 [AI Tooling Capstone: Serverless Multi-Model Systems](https://www.coursera.org/learn/ai-tooling-capstone-serverless-multi-model-systems)
 
-📚 **[Mastering GitHub Specialization](https://www.coursera.org/specializations/github)**
+📚 **[Mastering GitHub Specialization](https://www.coursera.org/specializations/github)** — 📦 [GitHub: paiml/mastering-github](https://github.com/paiml/mastering-github)
 
 * 📚 [GitHub: From Zero to Pull Request](https://www.coursera.org/learn/github-zero)
 * 📚 [GitHub: Codespaces, Actions, and Ecosystem Tools](https://www.coursera.org/learn/codespaces)
