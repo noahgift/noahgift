@@ -6,7 +6,7 @@
 
 ## Pragmatic AI Labs Specializations
 
-### 📚 [Rust for Data Engineering](https://www.coursera.org/specializations/rust-data-engineering)
+### 📚 [Rust for Data Engineering](https://www.coursera.org/specializations/rust)
 📦 [GitHub: paiml/rust-de-specialization](https://github.com/paiml/rust-de-specialization)
 
 31-course series. Build production data systems in Rust — ETL, SQL/NoSQL, serverless, GCP, and CI/CD.
