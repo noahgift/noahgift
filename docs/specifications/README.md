@@ -90,6 +90,8 @@ All sub-specs live beside this README. Each follows the same template (see
 | 008 | `audit site`                         | ✅ | [008-audit-site.md](./008-audit-site.md)      |
 | 009 | `ask "<question>"`                   | 🔴 | [009-ask-transcripts.md](./009-ask-transcripts.md) |
 | 010 | `pipe` — command composition         | ✅ | [010-pipe-composition.md](./010-pipe-composition.md) |
+| 011 | `rmedia wos` runtime bundle          | ✅ | [011-runtime-bundle.md](./011-runtime-bundle.md) |
+| 012 | `site-contract` build-time audit     | ✅ | [012-site-audit-contract.md](./012-site-audit-contract.md) |
 
 **Priority legend:** ✅ P0 (ship first, deterministic) · 🟡 P1 (ML fallback acceptable) · 🔴 P2 (heavy WASM, gated on perf).
 
