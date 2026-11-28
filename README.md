@@ -1,8 +1,8 @@
 # Noah Gift
 
-**I teach production AI, data and software engineering.** Co-founder and CEO of [Pragmatic AI Labs](https://paiml.com). 2M+ learners. O'Reilly author of *Practical MLOps* and *Python for DevOps*. AWS ML Hero. Former Executive in Residence at Duke.
+**I teach AI, MLOps and Rust, and build open-source AI in Rust.** Co-founder and CEO of [Pragmatic AI Labs](https://paiml.com). 2M+ learners. O'Reilly author of *Practical MLOps* and *Python for DevOps*. AWS ML Hero. Former Executive in Residence at Duke.
 
-**[Start a course on Coursera](https://www.coursera.org/specializations/ai-tooling?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift)** · **[Learn on edX](https://www.edx.org/school/ai?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift)** · **[Watch the daily show](https://www.youtube.com/@pragmaticai)**
+**[Start a course on Coursera](https://www.coursera.org/specializations/ai-tooling?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift)** · **[Learn on edX](https://www.edx.org/school/ai?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift)** · **[Watch the daily show](https://www.youtube.com/@pragmaticai)** · **[Get the newsletter](https://ds500.paiml.com/mailing?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift)**
 
 ## Start here
 
@@ -20,7 +20,7 @@ Pick the row that matches the repo that brought you here.
 
 ## Full tracks
 
-[AI Tooling](https://www.coursera.org/specializations/ai-tooling?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Databricks](https://www.coursera.org/specializations/enterprise-ai-data-engineering-databricks?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Mastering GitHub](https://www.coursera.org/specializations/github?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Hugging Face](https://www.coursera.org/specializations/hugging-face-ai-development?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Rust for Data Engineering](https://www.coursera.org/specializations/rust?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Every course](COURSES.md)
+[AI Tooling](https://www.coursera.org/specializations/ai-tooling?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Databricks](https://www.coursera.org/specializations/enterprise-ai-data-engineering-databricks?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Mastering GitHub](https://www.coursera.org/specializations/github?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Hugging Face](https://www.coursera.org/specializations/hugging-face-ai-development?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [Rust for Data Engineering](https://www.coursera.org/specializations/rust?utm_source=github&utm_medium=profile&utm_campaign=funnel_2026q4&utm_content=noahgift) · [All 20 specializations](https://lnkd.in/e9x5JVuN) · [Every course](COURSES.md)
 
 ## What I build
 
